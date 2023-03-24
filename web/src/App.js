@@ -192,9 +192,9 @@ class App extends Component {
 
   getLogo(themes) {
     if (themes.includes("dark")) {
-      return `${Setting.StaticBaseUrl}/img/casdoor-logo_1185x256_dark.png`;
+      return `${Setting.StaticBaseUrl}/static/logo-dark.png`;
     } else {
-      return `${Setting.StaticBaseUrl}/img/casdoor-logo_1185x256.png`;
+      return `${Setting.StaticBaseUrl}/static/logo.png`;
     }
   }
 
@@ -621,7 +621,7 @@ class App extends Component {
             textAlign: "center",
           }
         }>
-            Powered by <a target="_blank" href="https://casdoor.org" rel="noreferrer"><img style={{paddingBottom: "3px"}} height={"20px"} alt={"Casdoor"} src={this.state.logo} /></a>
+            Powered by <a target="_blank" href="https://aisear.com" rel="noreferrer"><img style={{paddingBottom: "3px"}} height={"25px"} alt={"AISear"} src={this.state.logo} /></a>
         </Footer>
       </React.Fragment>
     );

@@ -31,7 +31,7 @@ const {Option} = Select;
 export const ServerUrl = "";
 
 // export const StaticBaseUrl = "https://cdn.jsdelivr.net/gh/casbin/static";
-export const StaticBaseUrl = "https://cdn.casbin.org";
+export const StaticBaseUrl = "https://cdn.aisear.com";
 
 export const Countries = [{label: "English", key: "en", country: "US", alt: "English"},
   {label: "中文", key: "zh", country: "CN", alt: "中文"},
@@ -733,9 +733,9 @@ export function getAvatarColor(s) {
 
 export function getLogo(theme) {
   if (theme === "Dark") {
-    return `${StaticBaseUrl}/img/casdoor-logo_1185x256_dark.png`;
+    return `${StaticBaseUrl}/static/logo-dark.png`;
   } else {
-    return `${StaticBaseUrl}/img/casdoor-logo_1185x256.png`;
+    return `${StaticBaseUrl}/static/logo.png`;
   }
 }
 
